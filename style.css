@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+.container {
+  background: #74c69d;
+  height: 430px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #74c69d;
+  height: 49px;
+  padding: 20px 100px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.nav-links > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+.content-1 {
+  width: 416px;
+  height: 299px;
+  gap: 25px;
+  margin-top: 70px;
+}
+.contentimg {
+  width: 50%;
+  height: 378.13px;
+  position: absolute;
+  right: 90px;
+}
+.btn {
+  width: fit-content;
+  border: 1px solid white;
+  background: #ffffff;
+  color: black;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 2px
+}
+.content2 {
+  padding: 30px 150px;
+  text-align: center;
+}
+.content2 > h5 {
+  letter-spacing: 8px;
+  color: #74c69d;
+}
+.content2 > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Crimson Text", serif;
+  margin-top: -5px;
+}
+.content2 > p {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 25px;
+  margin-top: -15px;
+}
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 100px;
+  align-items: center;
+}
+.img {
+  width: 120px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 700px;
+}
+.img-group {
+  width: 400px;
+}
+.learnbutton {
+  position: relative;
+  left: 44%;
+  padding: 20px 0px;
+  width: fit-content;
+}
+.learnbtn {
+  width: fit-content;
+  border: 1px solid black;
+  background: #050507;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 2px;
+}
+.frametext {
+  width: fit-content;
+  position: absolute;
+  right: 120px;
+}
+.frametext > h2 {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  width: 350px;
+  font-size: 30px;
+}
+.frametext > p {
+  font-size: 16px;
+  width: 450px;
+  line-height: 23px;
+  color: gray;
+}
+.content3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 100px auto;
+}
+.frametext-2 {
+  width: 50%;
+}
+.frametext-2 > h2 {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  width: 350px;
+  font-size: 30px;
+}
+.frametext-2 > p {
+  width: fit-content;
+  font-size: 16px;
+  width: 450px;
+  line-height: 23px;
+  color: gray;
+}
+.box-person{
+    display: flex;justify-content: center;width: 80%;margin: 30px auto
+}
+.person{
+    width: 220px;height: 220px
+}
+.last{
+    display: flex;justify-content: center;margin-top: -40px
+}
+.lastimg{
+    width: 100%
+}
