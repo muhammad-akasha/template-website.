@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>responsive web</title>
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="media.css">
+<script src="https://kit.fontawesome.com/005ad9d070.js" crossorigin="anonymous"></script>
+    <title>start web</title>
   </head>
   <body>
-    <nav>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-dark;" style="background: #74c69d;">
+          <a class="navbar-brand" href="#"><img class="nav-logo" src="./public page1/Frame 4.svg" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="./portfolio.html">portfolio</a>
+              <a class="nav-item nav-link" href="./service.html">services</a>
+              <a class="nav-item nav-link" href="./contact.html">contacts</a>
+            </div>
+          </div>
+        </nav>
+    
+    <div class="nav">
       <div class="navbarlogo">
-        <img src="./Frame 4.svg" alt="" />
+        <img src="./public page1/Frame 4.svg" alt="" />
       </div>
       <div class="nav-links">
-        <a href="">home</a>
-        <a href="">potrfolio</a>
-        <a href="">services</a>
-        <a href="">contacts</a>
+        <a href="./index.html">home</a>
+        <a href="./portfolio.html">portfolio</a>
+        <a href="./service.html">services</a>
+        <a href="./contact.html">contacts</a>
       </div>
-    </nav>
-    <div class="container">
+    </div>
+    <div class="mycontainer">
+       
       <div class="content-1">
         <h4>welcome</h4>
         <h1>Lorem ipsum dolor sit amet consr asdasdkhaskd!</h1>
@@ -27,12 +47,11 @@
           Lorem ipsum do Lorem ipsum dolor sit amet consectetur adipisicing
           elit. Autem iste nesciunt veniam a quod maio numquibus nam.
         </p>
-        <h5 class="btn">explore</h5>
-      </div>
-      <div class="contentimg">
-        <img src="./Group.svg" alt="" />
+        <h5 class="btn">explore</h5></div>
+         <div class="groupimg1"> <img class="groupimg1" src="./public page1/Group.svg" alt="" /></div>
       </div>
     </div>
+  
     <div class="content2">
           <h5>  partners</h5>
           <h2> Lorem Ipsum Dolor</h2> 
@@ -41,28 +60,29 @@
         
     </div>
     <div class="logo">
-        <div><img class="img" src="./XMLID_1_ (1).svg" alt=""></div>
-        <div><img class="img" src="./XMLID_1_ (2).svg" alt=""></div>
-        <div><img class="img" src="./XMLID_24_.svg" alt=""></div>
-        <div><img class="img" src="/XMLID_1_.svg" alt=""></div>
-        <div><img class="img" src="./facebook.svg" alt=""></div>
+        <div><img class="img" src="./public page1/XMLID_1_.svg" alt=""></div>
+        <div><img class="img" src="./public page1/XMLID_1_ (2).svg" alt=""></div>
+        <div><img class="img" src="./public page1/XMLID_24_.svg" alt=""></div>
+        <div><img class="img" src="./public page1/XMLID_1_.svg" alt=""></div>
+        <div><img class="img" src="./public page1/facebook.svg" alt=""></div>
         
         
     </div>
     <div class="learnbutton"><p class="learnbtn">learn more</p></div>
   
         <div class="frame">
-         <img class="img-group" src="./Group.png" alt="">
+       <div class="image-group">
+         <img class="img-group" src="./public page1/Group.png" alt=""></div>
             <div class="frametext"><h2> Lorem ipsum dolor sit amet consectetur </h2>
                   <p>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
                   <h5 class="learnbtn"> Learn More</h5> </div>
         </div>
-    </div>
+      </div>
     <div class="content3">
         <div class="frametext-2"><h2>Lorem ipsum dolor sit amet consectetur </h2>
                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-              <h5 class="learnbtn">  Learn More</h5></div><div>
-                  <img class="img-group" src="./Group (2).svg" alt="">
+              <h5 class="learnbtn">  Learn More</h5></div>
+                  <img class="img-group" src="./public page1/Group (2).svg" alt="">
               </div>
     </div>
     <div>
@@ -73,16 +93,28 @@
                 Suscipit nemo hic quos, ab,</p>
         </div>
         <div class="box-person">
-            <div><img class="person" src="./Group 29.png" alt=""></div>
-            <div><img class="person"src="./Group 30.svg" alt=""></div>
-            <div><img class="person"src="./Group 31.png" alt=""></div>
-            <div><img class="person" src="./Group 32.png" alt="">
+            <div><img class="person" src="./public page1/Group 29.png" alt=""></div>
+            <div><img id="person" class="person"src="./public page1/Group 30.png" alt=""></div>
+            <div><img class="person"src="./public page1/Group 31.png" alt=""></div>
+            <div><img class="person" src="./public page1/Group 32.png" alt="">
 
             </div>
             
         </div>
     </div><div class="last"><h5 class="learnbtn">view team</h5></div>
-    <div><img class="lastimg" src="./Group 46.png" alt=""></div>
-
+    <footer> <div class="icons">
+      <div><i id="icon-1" class="fa-brands fa-facebook-f"></i></div>
+     
+      <div><i id="icon-2" class="fa-brands fa-twitter"></i></div>
+      <div><i id="icon-1" class="fa-brands fa-whatsapp"></i></div>
+      <div><i id="icon-3" class="fa-brands fa-youtube"></i></div>
+      <div><i id="icon-4" class="fa-brands fa-instagram"></i></div>
+      <div><i id="icon-5" class="fa-brands fa-tiktok"></i></div>
+      
+    </div>
+      <h4>© Start, 2022. All rights reserved.</h4></footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

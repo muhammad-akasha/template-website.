@@ -1,0 +1,452 @@
+@media only screen and (min-width: 360px) and (max-width: 784px) {
+  #navbar {
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  #navbar a {
+    color: #ffffff;
+  }
+  .nav {
+    display: none;
+  }
+  .nav-logo {
+    width: 120px;
+  }
+
+  .mycontainer {
+    width: 100%;
+    background: #74c69d;
+    height: fit-content;
+    display: flex;
+    padding: 30px 20px;
+    flex-wrap: wrap-reverse;
+    margin: 0px auto;
+  }
+  .content-1 {
+    width: 100%;
+    height: fit-content;
+    gap: 25px;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-1 h1 {
+    font-size: 26px;
+    font-weight: bolder;
+  }
+  .content-1 p {
+    color: rgb(83, 77, 77);
+  }
+  .contentimg {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    left: 0px;
+  }
+  .groupimg1 {
+    width: 100%;
+  }
+  .btn {
+    width: fit-content;
+    border: 1px solid white;
+    background: #ffffff;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 2px;
+  }
+  .content2 {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .content2 > h5 {
+    letter-spacing: 8px;
+    color: #74c69d;
+  }
+  .content2 > h2 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+    margin-top: 0px;
+  }
+  .content2 > p {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .img {
+    width: 150px;
+    height: 50px;
+  }
+
+  .frame {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+  }
+  .image-group {
+    width: 100%;
+  }
+  .img-group {
+    width: 100%;
+  }
+  .learnbutton {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 20px 50px;
+  }
+  .learnbtn {
+    width: fit-content;
+    border: 1px solid black;
+    background: #050507;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 2px;
+  }
+  .frametext {
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+    left: 0px;
+  }
+  .frametext > h2 {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 30px;
+  }
+  .frametext > p {
+    font-size: 16px;
+    width: 100%;
+    line-height: 23px;
+    color: gray;
+  }
+  .content3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px auto;
+    flex-wrap: wrap-reverse;
+  }
+  .frametext-2 {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .frametext-2 > h2 {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 30px;
+  }
+  .frametext-2 > p {
+    width: fit-content;
+    font-size: 16px;
+    width: 100%;
+    line-height: 23px;
+    color: gray;
+  }
+  .box-person {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .person {
+    width: 220px;
+    height: 220px;
+  }
+
+  .last {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #74c69d;
+    font-weight: lighter;
+    color: #ffffff;
+    height: 100px;
+    flex-wrap: wrap;
+  }
+  .icons {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+  }
+  footer > h4 {
+    font-weight: lighter;
+    font-size: 20px;
+    
+  }
+  .portfolio {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .portfolioimg {
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 784px) and (max-width: 1130px) {
+  #navbar {
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    padding: 10px 70px;
+  }
+  #navbar a {
+    color: #ffffff;
+  }
+  .nav {
+    display: none;
+  }
+  .nav-logo {
+    width: 150px;
+  }
+
+  .mycontainer {
+    width: 100%;
+    background: #74c69d;
+    height: fit-content;
+    display: flex;
+    padding: 30px 70px;
+    flex-wrap: wrap-reverse;
+    margin: 0px auto;
+  }
+  .content-1 {
+    width: 100%;
+    height: fit-content;
+    gap: 25px;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-1 > h4 {
+    width: 100%;
+  }
+  .content-1 h1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .content-1 p {
+    color: rgb(83, 77, 77);
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .contentimg {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    left: 0px;
+  }
+  .groupimg1 {
+    width: 100%;
+  }
+  .btn {
+    width: fit-content;
+    border: 1px solid white;
+    background: #ffffff;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 2px;
+  }
+  .content2 {
+    padding: 40px 70px;
+    text-align: center;
+  }
+  .content2 > h5 {
+    letter-spacing: 8px;
+    color: #74c69d;
+    font-size: 20px;
+  }
+  .content2 > h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+    margin-top: 0px;
+  }
+  .content2 > p {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 70px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .img {
+    width: 150px;
+    height: 50px;
+  }
+
+  .frame {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    padding: 20px 70px;
+  }
+  .image-group {
+    width: 100%;
+  }
+  .img-group {
+    width: 100%;
+  }
+  .learnbutton {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 20px 50px;
+  }
+  .learnbtn {
+    width: fit-content;
+    border: 1px solid black;
+    background: #050507;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 2px;
+  }
+  .frametext {
+    width: 100%;
+    padding: 20px 70px 0px 70px;
+    position: relative;
+    left: 0px;
+  }
+  .frametext > h2 {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 30px;
+  }
+  .frametext > p {
+    font-size: 20px;
+    width: 100%;
+    line-height: 25px;
+    color: gray;
+  }
+  .content3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px auto;
+    flex-wrap: wrap-reverse;
+    padding: 20px 70px;
+  }
+  .frametext-2 {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .frametext-2 > h2 {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 30px;
+  }
+  .frametext-2 > p {
+    width: fit-content;
+    font-size: 20px;
+    width: 100%;
+    line-height: 25px;
+    color: gray;
+  }
+  .box-person {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 70px;
+  }
+  .person {
+    width: 220px;
+    height: 220px;
+  }
+
+  .last {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #74c69d;
+    font-weight: lighter;
+    color: #ffffff;
+    height: 100px;
+  }
+  .icons {
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+  }
+  footer > h4 {
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 784px) {
+  .portfolio {
+    padding: 30px 50px;
+  }
+  #navbar {
+    padding: 10px 55px;
+  }
+}
+
+@media only screen and (min-width:800px) and (max-width:900px){
+  .portfolioimg{
+    width: 318px;
+  }
+}
+@media only screen and (min-width:900px) and (max-width:1000px){
+  .portfolioimg{
+    width: 367px;
+  }
+}
+@media only screen and (min-width:1000px) and (max-width:1100px){
+  .portfolioimg{
+    width: 416px;
+  }
+}
+@media only screen and (min-width:1100px) and (max-width:1170px){
+  .portfolioimg{
+    width: 467px;
+  }
+}
