@@ -1,0 +1,32 @@
+@media only screen and (min-width: 360px) and (max-width: 784px) {
+    .portfolio {
+      padding: 30px 50px;width: 100%
+    }
+    #navbar {
+      padding: 10px 40px;
+    }
+    .portfolioimg{
+      width: 100%
+    }
+  }
+  
+  @media only screen and (min-width:800px) and (max-width:900px){
+    .portfolioimg{
+      width: 318px;
+    }
+  }
+  @media only screen and (min-width:900px) and (max-width:999px){
+    .portfolioimg{
+      width: 367px;
+    }
+  }
+  @media only screen and (min-width:1000px) and (max-width:1104px){
+    .portfolioimg{
+      width: 416px;
+    }
+  }
+  @media only screen and (min-width:1100px) and (max-width:1170px){
+    .portfolioimg{
+      width: 467px;
+    }
+  }

@@ -272,6 +272,7 @@ span {
 .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
   padding: 40px 70px;
 }
 .container input {

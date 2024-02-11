@@ -1,0 +1,45 @@
+@media only screen and (min-width:360px) and (max-width:784px){
+    #navbar{
+    padding: 20px 20px
+}
+#mycontainer{
+    padding: 20px 10px;width: 100%
+}
+#mycontainer input{
+    width: 100%
+}
+.inputelement{
+    padding: 20px 10px;width: 100%;
+}
+
+.mapimg{
+   padding:0px;width: 100%
+}
+.map{
+    width: 100%;padding: 20px 10px
+}
+}
+@media only screen and (min-width:568px) and (max-width:1200px){
+    #navbar{
+    padding: 20px 45px
+}
+.content2{
+    width: 80%;margin: 0px auto
+}
+#mycontainer{
+    padding: 20px 0px;width: 100%
+}
+#mycontainer input{
+    width: 100%
+}
+.inputelement{
+    padding: 20px 30px;width: 100%;
+}
+.mapimg{
+    width: 100%
+}
+.map{
+    width: 100%;padding: 20px 30px;
+}
+}
+
